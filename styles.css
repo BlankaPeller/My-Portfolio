@@ -1,3 +1,7 @@
 body{
     background-image: url('images/background.png');
 }
+#content{
+    background-color: #333333;
+    width: 70%;
+}
