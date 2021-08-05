@@ -103,7 +103,10 @@ main{
     background-color: #1a1a1a;
     padding-bottom: 15px;
 }
-#video{
+#profile2{
+    border-radius: 50%;
+}
+#video, #profile{
     text-align: center;
 }
 .contact{
