@@ -72,18 +72,10 @@ h3{
 h3 a:link{
     text-decoration: none;
 	color: #801039;
-    border: double 2px ;
-    border-top: transparent;
-    border-right: transparent;
-    border-left: transparent;
 }
 h3 a:visited{
     text-decoration: none;
 	color: #801039;
-    border: double 2px ;
-    border-top: transparent;
-    border-right: transparent;
-    border-left: transparent;
 }
 h3 a:hover{
 	text-decoration: none;
@@ -110,6 +102,9 @@ p{
 main{
     background-color: #1a1a1a;
     padding-bottom: 15px;
+}
+#video{
+    text-align: center;
 }
 .contact{
     height: 60px;
