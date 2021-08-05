@@ -59,7 +59,7 @@ h2{
     border-top: transparent;
     border-right: transparent;
     border-left: transparent;
-    width: 10%;
+    width: 12%;
     padding-top: 50px;
     margin-bottom: 50px;
 }
@@ -71,7 +71,7 @@ h3{
 }
 h3 a:link{
     text-decoration: none;
-	color: #eeeeee;
+	color: #801039;
     border: double 2px ;
     border-top: transparent;
     border-right: transparent;
@@ -79,7 +79,7 @@ h3 a:link{
 }
 h3 a:visited{
     text-decoration: none;
-	color: #eeeeee;
+	color: #801039;
     border: double 2px ;
     border-top: transparent;
     border-right: transparent;
@@ -87,7 +87,17 @@ h3 a:visited{
 }
 h3 a:hover{
 	text-decoration: none;
-	color: #801039;
+	color: #eeeeee;
+}
+.one{
+    background-color: #252525;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.one p{
+    padding: 0 20px 0 20px;   
 }
 p{
     font-size: 1.2em;
@@ -99,6 +109,10 @@ p{
 }
 main{
     background-color: #1a1a1a;
+    padding-bottom: 15px;
+}
+.contact{
+    height: 60px;
 }
 .contact li{
     list-style: none;
