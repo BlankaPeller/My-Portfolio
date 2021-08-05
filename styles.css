@@ -2,6 +2,74 @@ body{
     background-image: url('images/background.png');
 }
 #content{
-    background-color: #333333;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #252525;
     width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1, h2, h3, p, li{
+    color: #eeeeee;
+}
+h1{
+    padding-top: 40px;
+    margin-left: 50px;
+    font-size: 3em;
+    
+}
+nav{
+    position: absolute;
+    right: 20%;
+}
+nav li{
+    list-style: none;
+	display: inline;
+	padding:0 15px 0 15px;
+    font-size: 1.5em;
+}
+nav a:link{
+	text-decoration: none;
+	color: #eeeeee;
+    width: 40px;
+}nav a:visited{
+	text-decoration: none;
+	color: #eeeeee;
+    width: 40px;
+}
+nav a:hover{
+	text-decoration: none;
+	color: #801039;
+}
+nav a.active{
+    border: solid 1px;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    padding: 15px 15px 15px 15px;
+    background-color:#5a5a5a;
+}
+nav a.active{
+    padding: 15px 15px 15px 15px;
+}
+h2{
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 1px #801039;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    width: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 1.2em;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+    font-family: 'Hind Madurai', sans-serif;
+}
+main{
+    background-color: #1a1a1a;
 }
